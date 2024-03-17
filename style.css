@@ -1,0 +1,48 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.funtionalities{
+    font-size: 1.24rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 11%;
+    min-width:40rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0;
+    background: #b1c0d5;
+}
+
+
+.input-group{
+    margin-top: 16px;
+    width: 45%;
+    /* z-index: -1; */
+}
+
+
+.api_output{
+    width: 100%;
+    height: fit-content;
+    margin-top: 4%;
+}
+
+#ux{
+    display: none;
+}
+#ui{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#icon{
+    position: absolute;
+    margin: 9px 173px;
+    z-index: 1;
+}
